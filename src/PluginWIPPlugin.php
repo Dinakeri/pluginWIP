@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Dinakeri\PluginWIP;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class PluginWIPPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'pluginwip';
     }
 
     public function register(Panel $panel): void

@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Dinakeri\PluginWIP\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
