@@ -2,6 +2,8 @@
 
 namespace Dinakeri\PluginWIP;
 
+use Dinakeri\PluginWIP\Commands\PluginWIPCommand;
+use Dinakeri\PluginWIP\Testing\TestsPluginWIP;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dinakeri\PluginWIP\Commands\PluginWIPCommand;
-use Dinakeri\PluginWIP\Testing\TestsPluginWIP;
 
 class PluginWIPServiceProvider extends PackageServiceProvider
 {
